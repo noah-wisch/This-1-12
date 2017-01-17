@@ -4,7 +4,7 @@ let Team = require('./team');
 let Flag = require('./flag');
 
 window.addEventListener('load', function () {
-    console.log('hi there')
+    console.log('You\'re it')
 });
 
 let playerList = [
@@ -29,7 +29,7 @@ teams.addRunner(playerList[3]);
 teams.addRunner(playerList[4]);
 teams.addRunner(playerList[5]);
 //teams.announce();
-
-console.log(playerList[0].tagged(playerList[3]));
+console.log(playerList[0].tag(playerList[5]));
+//console.log(playerList[4].name + '\'s frozen status is ' + playerList[0].tag(playerList[4]));
 
 // function for win or lose...
